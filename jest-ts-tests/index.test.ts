@@ -1,8 +1,7 @@
-import { sum } from './index';
-import { describe, test, expect } from '@jest/globals';
+import { sum } from './index'
+import { describe, test, expect } from '@jest/globals'
 describe('Sum function', () => {
- test('Returns correct value', () => {
- expect(sum(2, 3)).toEqual(5);
-
- });
-});
+	test('Returns correct value', () => {
+		expect(sum(2, 3)).toEqual(5)
+	})
+})
